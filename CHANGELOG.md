@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.9-1 (2026-11-16)
+
+- README: add the Deploy on Railway button for the published template (`chromadb`). No change to the image or settings; applying this update only rebuilds the same version.
+
 ## 1.5.9 (2026-11-16)
 
 First release of the template.
