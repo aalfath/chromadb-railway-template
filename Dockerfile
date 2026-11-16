@@ -12,7 +12,7 @@ RUN chmod 0755 /usr/local/bin/railway-chroma-start
 
 ENV PORT=8000
 EXPOSE 8000
-VOLUME ["/data"]
+# Data lives in /data: attach a Railway volume there (Railway rejects Dockerfile VOLUME lines).
 
 ENTRYPOINT ["dumb-init", "--", "/usr/local/bin/railway-chroma-start"]
 CMD []
