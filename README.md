@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/chromadb?utm_medium=integration&utm_source=button&utm_campaign=chromadb)
+
 # ChromaDB on Railway
 
 This repo is the source of the **ChromaDB** template on Railway. It runs the official Chroma server, an open-source vector database for embeddings, with its data on a Railway volume and a token in front of the API.
